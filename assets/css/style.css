@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    color: #ffffff;
+    height: 100%;
+}
+
+h1 {
+    background-color: #000000;
+    text-align: center;
+    margin: 0;
+    font-weight: 500;
+}
+
+#bg-header {
+    overflow: hidden;
+    background-image: url(../img/bg-header.jpg);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+i {
+    font-size: 5em;
+}
+
+footer,
+#icons-section {
+    background-color: #1e1a13;
+}
+
+#desc-section {
+    display: flex;
+    background-color: #000000;
+    padding: 50px;
+}
+
+
+#desc-section #texto {
+    width: 70%;
+    margin: auto;
+    margin-right: 5%;
+    font-weight: 300;
+}
+
+#img-iguana-1 {
+    width: 100%;
+}
+
+#tt-caract {
+    text-align: center;
+    padding-top: 15px;
+    margin: 0;
+    font-weight: 500;
+    font-size: xx-large;
+}
+
+#icons-section #icons {
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+}
+
+.icon {
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.icon p {
+    font-size: large;
+    font-weight: 300;
+}
+
+#galeria-section {
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    padding: 50px;
+}
+
+#galeria-div {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-weight: 300;
+}
+
+#galeria-div .img-galeria {
+    width: 400px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+footer {
+    height: auto;
+    padding: 1%;
+    text-align: center;
+    font-weight: 300;
+}
